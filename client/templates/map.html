@@ -1,3 +1,23 @@
 <template name="map">
-	<h1>Campus Map</h1>
+	<!-- <h1>Campus Map</h1> -->
+	{{#contentFor "headerButtonLeft"}}
+    {{>ionNavBackButton path="index"}}
+  {{/contentFor}}
+
+  {{#contentFor "headerTitle"}}
+    <h1 class="title">Campus Map</h1>
+  {{/contentFor}}
+  
+
+  {{#ionView}}
+    {{#ionContent}}
+      
+
+        <h1>Campus Map</h1>
+
+         
+
+     
+    {{/ionContent}}
+  {{/ionView}}
 </template>

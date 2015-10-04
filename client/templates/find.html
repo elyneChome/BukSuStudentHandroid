@@ -1,3 +1,83 @@
 <template name="find">
-	<h1>Find</h1>
+	<!-- <h1>Find</h1> -->
+
+	
+  {{#contentFor "headerButtonLeft"}}
+    {{>ionNavBackButton path="index"}}
+  {{/contentFor}}
+  
+  {{#contentFor "headerTitle"}}
+    <h1 class="title">Find</h1>
+  {{/contentFor}}
+  
+
+  {{#ionView}}
+    {{#ionContent}}
+      {{#ionList}}
+
+
+          {{#ionItem path="index" iconLeft=true iconRight=true avatar=true}}
+            <img src="img/find/CAS.jpg">
+            <h2>College of Arts and Sciences</h2>
+            {{> ionIcon icon="ios-arrow-right"}}
+          {{/ionItem}}
+
+
+          {{#ionItem path="index" iconLeft=true iconRight=true avatar=true}}
+            <img src="img/find/COB.jpg">
+            <h2>College of Business</h2>
+            {{> ionIcon icon="ios-arrow-right"}}
+          {{/ionItem}}
+
+
+          {{#ionItem path="index" iconLeft=true iconRight=true avatar=true}}
+            <img src="img/find/COE.jpg">
+            <h2>College odf Education</h2>
+            {{> ionIcon icon="ios-arrow-right"}}
+          {{/ionItem}}
+
+
+          {{#ionItem path="index" iconLeft=true iconRight=true avatar=true}}
+            <img src="img/find/CCDT.jpg">
+            <h2>College of Community Development and Technology</h2>           
+            {{> ionIcon icon="ios-arrow-right"}}
+          {{/ionItem}}
+
+
+          {{#ionItem path="index" iconLeft=true iconRight=true avatar=true}}
+            <img src="img/find/Law.jpg">
+            <h2>College of Law</h2>
+            {{> ionIcon icon="ios-arrow-right"}}
+          {{/ionItem}}
+
+
+          {{#ionItem path="index" iconLeft=true iconRight=true avatar=true}}
+            <img src="img/find/grad.jpg">
+            <h2>Graduate School</h2>
+            {{> ionIcon icon="ios-arrow-right"}}
+          {{/ionItem}}
+
+          {{#ionItem path="index" iconLeft=true iconRight=true avatar=true}}
+            <img src="img/find/esl.jpg">
+            <h2>Elementary School Laboratory</h2>
+            {{> ionIcon icon="ios-arrow-right"}}
+          {{/ionItem}}
+
+          {{#ionItem path="index" iconLeft=true iconRight=true avatar=true}}
+            <img src="img/find/ssl.jpg">
+            <h2>Secondary School Laboratory</h2>
+            {{> ionIcon icon="ios-arrow-right"}}
+          {{/ionItem}}
+
+          {{#ionItem path="index" iconLeft=true iconRight=true avatar=true}}
+            <img src="img/find/admin.jpg">
+            <h2>Administration Building</h2>
+            {{> ionIcon icon="ios-arrow-right"}}
+          {{/ionItem}}
+
+      {{/ionList}}
+    {{/ionContent}}
+  {{/ionView}}
+
+
 </template>

@@ -1,3 +1,29 @@
 <template name="course">
-	<h1>Curriculum Offerings</h1>
+	<!-- <h1>Curriculum Offerings</h1> -->
+
+	{{#contentFor "headerButtonLeft"}}
+    {{>ionNavBackButton path="index"}}
+  {{/contentFor}}
+  
+  {{#contentFor "headerTitle"}}
+    <h1 class="title">Curriculum Offerings</h1>
+  {{/contentFor}}
+  
+
+  {{#ionView}}
+    {{#ionContent}}
+      {{#ionList}}
+
+
+      
+
+        <h1>Curriculum Offerings</h1>
+
+         
+
+       
+
+      {{/ionList}}
+    {{/ionContent}}
+  {{/ionView}}
 </template>

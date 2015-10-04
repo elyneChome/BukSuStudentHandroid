@@ -1,3 +1,34 @@
 <template name="coc">
-	<h1>Code of Ethics</h1>
+	<!-- <h1>Code of Ethics</h1> -->
+
+	
+	{{#contentFor "headerButtonLeft"}}
+    {{>ionNavBackButton path="index"}}
+  {{/contentFor}}
+  
+  {{#contentFor "headerTitle"}}
+    <h1 class="title">Code of Ethics</h1>
+  {{/contentFor}}
+  
+
+  {{#ionView}}
+    {{#ionContent}}
+      {{#ionList}}
+
+
+      
+
+        <h1>Code of Ethics</h1>
+
+         
+
+       
+
+      {{/ionList}}
+    {{/ionContent}}
+  {{/ionView}}
+
+
+
+	 
 </template>

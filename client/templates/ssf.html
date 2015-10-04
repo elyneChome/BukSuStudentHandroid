@@ -1,3 +1,22 @@
 <template name="ssf">
-	<h1>Student Service and Facilities</h1>
+	<!-- <h1>Student Service and Facilities</h1> -->
+
+	{{#contentFor "headerButtonLeft"}}
+    {{>ionNavBackButton path="index"}}
+  {{/contentFor}}
+
+  {{#contentFor "headerTitle"}}
+    <h1 class="title">Student Service and Facilities</h1>
+  {{/contentFor}}
+  
+
+  {{#ionView}}
+    {{#ionContent}}
+      
+
+        <h1>Student Service and Facilities</h1>
+
+         
+    {{/ionContent}}
+  {{/ionView}}
 </template>

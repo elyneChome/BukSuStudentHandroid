@@ -1,3 +1,28 @@
 <template name="about">
-	<h1>ABOUT</h1>
+	<!-- <h1>ABOUT</h1> -->
+
+
+	
+  {{#contentFor "headerButtonLeft"}}
+    {{>ionNavBackButton path="index"}}
+  {{/contentFor}}
+
+  {{#contentFor "headerTitle"}}
+    <h1 class="title">About The University</h1>
+  {{/contentFor}}
+  
+
+  {{#ionView}}
+    {{#ionContent}}
+      
+
+        <h1>About</h1>
+
+         
+    {{/ionContent}}
+  {{/ionView}}
+
+
+
+	 
 </template>
